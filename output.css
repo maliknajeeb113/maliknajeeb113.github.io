@@ -524,16 +524,53 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body{
-  background-color: #f8f8f8;
-  font-family: 'Rubik', sans-serif;
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: rgb(253, 199, 19);
 }
 
-h1{
-  color:#212121;
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(150, 110, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.text-top {
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px 0px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  height: 180px;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(255, 136, 0);
+}
+
+.eye {
+  border-top: 60px solid rgb(253, 199, 19);
+  border-right: 300px solid rgb(255, 136, 0);
+  border-left: 300px solid rgb(255, 136, 0);
+  margin: auto;
+  margin-top: 0;
 }
