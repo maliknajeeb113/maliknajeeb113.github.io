@@ -40,8 +40,8 @@
   }
   .eye {
 border-top: 60px solid rgb(253, 199, 19);
-border-right: 300px solid rgb(255, 136, 0);
-border-left: 300px solid rgb(255, 136, 0);
+border-right: 300px solid transparent;
+border-left: 300px solid transparent;
 margin: auto;
 margin-top: 0;
   }
